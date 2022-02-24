@@ -533,3 +533,14 @@
 2022-02-15 12:50:13.634 MSK [1802] FATAL:  terminating connection due to administrator command
 2022-02-15 12:50:13.634 MSK [1802] LOG:  could not send data to client: Broken pipe
 2022-02-15 12:50:13.636 MSK [1776] LOG:  background worker "logical replication launcher" (PID 1783) exited with exit code 1
+2022-02-24 22:26:39.784 MSK [2901] LOG:  starting PostgreSQL 14.1 on x86_64-pc-linux-musl, compiled by gcc (Alpine 10.3.1_git20211027) 10.3.1 20211027, 64-bit
+2022-02-24 22:26:39.784 MSK [2901] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+2022-02-24 22:26:39.791 MSK [2901] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2022-02-24 22:26:39.801 MSK [2902] LOG:  database system was interrupted; last known up at 2022-02-15 12:28:41 MSK
+2022-02-24 22:26:39.952 MSK [2902] LOG:  database system was not properly shut down; automatic recovery in progress
+2022-02-24 22:26:39.958 MSK [2902] LOG:  redo starts at 0/437BBC0
+2022-02-24 22:26:39.959 MSK [2902] LOG:  invalid record length at 0/437BCA8: wanted 24, got 0
+2022-02-24 22:26:39.959 MSK [2902] LOG:  redo done at 0/437BC70 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+2022-02-24 22:26:39.978 MSK [2901] LOG:  database system is ready to accept connections
+2022-02-24 22:28:19.030 MSK [2927] FATAL:  database "g394_bogdanov" does not exist
+2022-02-24 22:29:56.536 MSK [2934] FATAL:  database "g394_bogdanov" does not exist

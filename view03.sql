@@ -1,0 +1,1 @@
+ALTER TABLE fn add constraint pk_x PRIMARY KEY (x);

@@ -1,0 +1,1 @@
+SELECT *FROM positive_tab ORDER BY x LIMIT 15;

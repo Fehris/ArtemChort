@@ -1,0 +1,1 @@
+create materialized view fn_view as select * from fn_file where x> 10.0 with no data;

@@ -1,0 +1,1 @@
+update fn set y = sin(x);
